@@ -1,0 +1,57 @@
+parameters:
+
+    annotationGroups: [todo, deprecated] # array
+    title: "libpdk API Docs" # string
+    baseUrl: "http://libpdk.org/apidocs/php" # string
+    overwrite: true # bool
+    siteCategory:
+      home:
+        name: "Home"
+        url: "/"
+      manual:
+        name: "Manual"
+        url: "/manual/index.html"
+      apidocs:
+        name: "API"
+        children:
+          php:
+            name: "PHP API Docs"
+            url: "/apidocs/php/index.html"
+      team:
+        name: "Team"
+        url: "/team.html"
+      blog:
+        name: "Blog"
+        url: "/blog/index.html"
+      about:
+        name: "About"
+        url: "/about/index.html"
+    apiCatalog:
+      index:
+        name: "Summary"
+        url: "/apidocs/php/index.html"
+        icon: "home.svg"
+      globals:
+        name: "Globals"
+        url: "/apidocs/php/globals.html"
+        icon: "global.svg"
+      namespaces:
+        name: "Namespaces"
+        url: "/apidocs/php/namespaces.html"
+        icon: "namespace.svg"
+      functions:
+        name: "Functions"
+        url: "/apidocs/php/functions.html"
+        icon: "function.svg"
+      classes:
+        name: "Classes"
+        url: "/apidocs/php/classes.html"
+        icon: "class.svg"
+      interfaces:
+        name: "Interfaces"
+        url: "/apidocs/php/interfaces.html"
+        icon: "interface.svg"
+      traits:
+        name: "Traits"
+        url: "/apidocs/php/traits.html"
+        icon: "trait.svg"
