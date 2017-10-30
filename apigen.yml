@@ -17,6 +17,9 @@ parameters:
           php:
             name: "PHP API Docs"
             url: "/apidocs/php/index.html"
+          cpp:
+            name: "CPP API Docs"
+            url: "/apidocs/cpp/index.html"
       team:
         name: "Team"
         url: "/team.html"
